@@ -1,7 +1,7 @@
 import random
 from turtle import *
 shape("turtle")
-speed(5)
+speed(10)
 colours = ["blue", "purple", "cyan", "plum", "LimeGreen", "yellow", "orange", "red", "HotPink"]
 pensize(5) 
 Screen().bgcolor("lemon chiffon")
