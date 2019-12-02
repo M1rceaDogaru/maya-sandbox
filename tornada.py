@@ -1,10 +1,11 @@
 import random
 from turtle import *
+hideturtle()
 shape("turtle")
-speed(10)
-colours = ["blue", "purple", "cyan", "plum", "LimeGreen", "yellow", "orange", "red", "HotPink"]
+speed(20)
+colours = ["red", "orange", "yellow", "green", "LimeGreen", "cyan", "RoyalBlue1", "violet red", "gold"]
 pensize(5) 
-Screen().bgcolor("lemon chiffon")
+Screen().bgcolor("blue")
 def vshape(size):
     right(25) 
     forward(size)

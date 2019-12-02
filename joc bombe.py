@@ -28,9 +28,9 @@ def layout_window(window):
     for rowNumber, rowList in enumerate(bombfield):
         for columnNumber, columnEntry in enumerate(rowList):
             if random.randint(1,100) < 25:
-                square = tkinter.Label(window, text = "    ", bg = "darkgreen")
+                square = tkinter.Label(window, text = "    ", bg = "gold")
             elif random.randint(1,100) > 75:
-                square = tkinter.Label(window, text = "    ", bg = "seagreen")
+                square = tkinter.Label(window, text = "    ", bg = "RoyalBlue1")
             else:
                 square = tkinter.Label(window, text = "    ", bg = "green")
             square.grid(row = rowNumber, column =  columnNumber)

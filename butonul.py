@@ -1,6 +1,6 @@
 import tkinter
 window = tkinter.Tk()
-button = tkinter.Button(window, text="Do not press this button.", width=40)
+button = tkinter.Button(window, text="Do not press this button.", width=40, background="tomato")
 button.pack(padx=10, pady=10)
 clickCount = 0
 def onClick(event):

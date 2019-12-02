@@ -6,8 +6,8 @@ canvasHeight = 500
 window = tkinter.Tk()
 canvas = tkinter.Canvas(window, width=canvasWidth, height=canvasHeight, bg="dodgerblue4")
 canvas.pack()
-bat = canvas.create_rectangle(0, 0, 80, 10, fill="dark turquoise")
-ball = canvas.create_oval(0, 0, 10, 10, fill="deep pink")
+bat = canvas.create_rectangle(0, 0, 80, 10, fill="gold")
+ball = canvas.create_oval(0, 0, 10, 10, fill="red")
 windowOpen = True
 score = 0
 bounceCount = 0
